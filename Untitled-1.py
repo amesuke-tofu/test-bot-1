@@ -1,7 +1,8 @@
 
 import discord
+from discord.ext import commands
 TOKEN = 'NTc5NTg4NTQ4Mjc4MDkxNzk4.XPEF8g.kduskv79DFuzB7dTC2kqVhNrvl4'
-bot = Mybot(command_prefix='/')
+bot = commands(command_prefix='/')
 @bot.event
 async def on_ready():
     print('ログインしました')
