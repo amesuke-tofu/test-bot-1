@@ -10,7 +10,7 @@ async def ban(member: discord.Member, days: int = 1):
     if message.author.guild_permissions.administrator:
         await bot.ban(member, days)
     else:
-        await bot.say("権限ねーよKS")
+        await bot.say("権限確認してください")
 @bot.event
 async def on_message(message):
     if message.content == '/cleanup':
