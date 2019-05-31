@@ -1,6 +1,6 @@
 
 import discord
-TOKEN = 'NTc5NTg4NTQ4Mjc4MDkxNzk4.XO-GlQ.Xr6IDM-X8UGaL266QJHjwp9Khbs'
+TOKEN = 'NTc5NTg4NTQ4Mjc4MDkxNzk4.XPEF8g.kduskv79DFuzB7dTC2kqVhNrvl4'
 bot = Mybot(command_prefix='/')
 @bot.event
 async def on_ready():
