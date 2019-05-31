@@ -1,8 +1,10 @@
-
 import discord
+
 from discord.ext import commands
-TOKEN = 'NTc5NTg4NTQ4Mjc4MDkxNzk4.XPEF8g.kduskv79DFuzB7dTC2kqVhNrvl4'
-bot = commands(command_prefix='/')
+
+class MyBot(commands.Bot):
+    if __name__ == '__main__':
+        bot = MyBot(command_prefix='/')
 @bot.event
 async def on_ready():
     print('ログインしました')
@@ -26,4 +28,4 @@ async def on_message(message):
 #        await bot.kick(member, days)
 #    else:
 #        await bot.say("権限ねーよKS")
-bot.run("TOKEN")
+bot.run("NTc5NTg4NTQ4Mjc4MDkxNzk4.XPEF8g.kduskv79DFuzB7dTC2kqVhNrvl4")
